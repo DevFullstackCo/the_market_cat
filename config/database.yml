@@ -28,19 +28,19 @@ production:
   primary:
     <<: *default
     database: the_market_cat_primary
-    url: "DATABASE_URL:"
+    url: "postgres://uestqc10opcbgr:p1c47ba11f88626d93f6a9e65e90769f77ffaa96a922537fda9e598e3c2d569f7@c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d2no8ehsthajct"
   cache:
     <<: *default
     database: the_market_cat_cache
     migrations_paths: db/cache_migrate
-    url: "DATABASE_URL:"
+    url: "postgres://uestqc10opcbgr:p1c47ba11f88626d93f6a9e65e90769f77ffaa96a922537fda9e598e3c2d569f7@c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d2no8ehsthajct"
   queue:
     <<: *default
     database: the_market_cat_queue
     migrations_paths: db/queue_migrate
-    url: "DATABASE_URL:"
+    url: "postgres://uestqc10opcbgr:p1c47ba11f88626d93f6a9e65e90769f77ffaa96a922537fda9e598e3c2d569f7@c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d2no8ehsthajct"
   cable:
     <<: *default
     database: the_market_cat_cable
     migrations_paths: db/cable_migrate
-    url: "DATABASE_URL:"
+    url: "postgres://uestqc10opcbgr:p1c47ba11f88626d93f6a9e65e90769f77ffaa96a922537fda9e598e3c2d569f7@c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d2no8ehsthajct"
