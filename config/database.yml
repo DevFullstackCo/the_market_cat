@@ -17,4 +17,4 @@ test:
 production:
   <<: *default
   # Utilisation de DATABASE_URL configurée automatiquement par Heroku
-  url: <%= ENV['DATABASE_URL'] %>
+  url: "postgres://u8b1thgitdphtl:pa74f500f005cdd2d87191e6a67b36039fc48fdb4a02fb048e434c96f1bb1420c@cd27da2sn4hj7h.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d9d84qiotjitm9"
