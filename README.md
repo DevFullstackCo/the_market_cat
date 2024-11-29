@@ -91,7 +91,7 @@ http://localhost:3000
 - **Database**: PostgreSQL
 - **Authentication**: Devise
 - **Mailing**: Mailjet API
-- **Deployment**: [Fly.io](https://fly.io/)
+- **Deployment**: Heroku
 
 ---
 
